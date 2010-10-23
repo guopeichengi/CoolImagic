@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\CoolImagic\", "F:\CoolImagic\", "{15AC6E90-9200-42FE-A08B-490EFE2C446D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/CoolImagic"
+		Debug.AspNetCompiler.PhysicalPath = "F:\CoolImagic\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CoolImagic\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CoolImagic"
+		Release.AspNetCompiler.PhysicalPath = "F:\CoolImagic\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CoolImagic\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50274"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15AC6E90-9200-42FE-A08B-490EFE2C446D}.Debug|.NET.ActiveCfg = Debug|.NET
+		{15AC6E90-9200-42FE-A08B-490EFE2C446D}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

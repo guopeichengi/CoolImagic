@@ -1,0 +1,171 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="2.0" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_SolutionProjectConfiguration>Debug|.NET</_SolutionProjectConfiguration>
+    <_SolutionProjectToolsVersion>2.0</_SolutionProjectToolsVersion>
+    <_SolutionProjectCacheVersion>4.0</_SolutionProjectCacheVersion>
+  </PropertyGroup>
+  <ItemGroup />
+  <UsingTask TaskName="Microsoft.Build.Tasks.CreateTemporaryVCProject" AssemblyName="Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <UsingTask TaskName="Microsoft.Build.Tasks.ResolveVCProjectOutput" AssemblyName="Microsoft.Build.Tasks, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>.NET</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>F:\CoolImagic\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>CoolImagic.sln</SolutionFileName>
+    <SolutionName>CoolImagic</SolutionName>
+    <SolutionPath>F:\CoolImagic\CoolImagic.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '4.0'">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == '.NET') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+        <ProjectConfiguration Project="{15AC6E90-9200-42FE-A08B-490EFE2C446D}">Debug|.NET</ProjectConfiguration>
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == '.NET') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+      </SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Debug' ">
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath>/CoolImagic</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath>F:\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>PrecompiledWeb\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce>true</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable>true</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug>True</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames>false</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(AspNetConfiguration)' == 'Release' ">
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath>/CoolImagic</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath>F:\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>PrecompiledWeb\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce>true</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable>true</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug>False</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA>
+    </Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames>false</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames>
+    <Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath Condition=" '$(OutDir)' != '' ">$(OutDir)_PublishedWebsites\CoolImagic\</Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath>
+  </PropertyGroup>
+  <Target Name="ValidateSolutionConfiguration">
+    <Error Text="指定的解决方案配置“$(Configuration)|$(Platform)”无效。请使用 Configuration 和 Platform 属性指定有效的解决方案配置(例如 MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;)，或者将这些属性保留为空，以使用默认的解决方案配置。" Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' != 'true')" />
+    <Warning Text="指定的解决方案配置“$(Configuration)|$(Platform)”无效。请使用 Configuration 和 Platform 属性指定有效的解决方案配置(例如 MSBuild.exe Solution.sln /p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;)，或者将这些属性保留为空，以使用默认的解决方案配置。" Code="MSB4126" HelpKeyword="MSBuild.SolutionInvalidSolutionConfiguration" Condition="('$(CurrentSolutionConfigurationContents)' == '') and ('$(SkipInvalidConfigurations)' == 'true')" />
+    <Message Text="正在生成解决方案配置“$(Configuration)|$(Platform)”。" Condition="'$(CurrentSolutionConfigurationContents)' != ''" />
+  </Target>
+  <Target Name="ValidateToolsVersions">
+    <Error Text="解决方案的工具版本“$(MSBuildToolsVersion)”不支持使用其他工具版本生成项目。" Code="MSB4149" HelpKeyword="MSBuild.SolutionToolsVersionDoesNotSupportProjectToolsVersion" Condition="'$(MSBuildToolsVersion)' == '2.0' and ('$(ProjectToolsVersion)' != '2.0' and '$(ProjectToolsVersion)' != '')" />
+  </Target>
+  <Target Name="GetFrameworkPathAndRedistList">
+    <GetFrameworkPath>
+      <Output TaskParameter="Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition="'$(MSBuildToolsVersion)' == '2.0'" />
+      <Output TaskParameter="FrameworkVersion40Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" '$(TargetFrameworkVersion)' == 'v4.0' and '$(MSBuildToolsVersion)' == '4.0'" />
+      <Output TaskParameter="FrameworkVersion35Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v3.5' or '$(TargetFrameworkVersion)' == 'v4.0') and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion30Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition=" ('$(TargetFrameworkVersion)' == 'v3.0' or '$(TargetFrameworkVersion)' == 'v3.5' or '$(TargetFrameworkVersion)' == 'v4.0') and '$(MSBuildToolsVersion)' != '2.0'" />
+      <Output TaskParameter="FrameworkVersion20Path" ItemName="_CombinedTargetFrameworkDirectoriesItem" Condition="'$(MSBuildToolsVersion)' != '2.0'" />
+    </GetFrameworkPath>
+    <CreateItem Include="@(_CombinedTargetFrameworkDirectoriesItem->'%(Identity)\RedistList\*.xml')">
+      <Output TaskParameter="Include" ItemName="InstalledAssemblyTables" />
+    </CreateItem>
+  </Target>
+  <Target Name="F:\CoolImagic\" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == '.NET') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == '.NET') )) ">
+    <CreateItem Include="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_RefreshFile.Identity)" Condition=" '%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)" Paths="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References->'%(FullPath)')" DestinationFolder="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_CopyLocalFiles)" DestinationFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_CopyLocalFiles->'$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath)" PhysicalPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)" TargetPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath)" Force="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce)" Updateable="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable)" Debug="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug)" KeyFile="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile)" KeyContainer="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer)" DelaySign="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA)" FixedNames="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="由于此 Web 项目不支持“$(AspNetConfiguration)”配置，因此跳过。通过向命令行添加 /p:AspNetConfiguration=&lt;value&gt;，可以使用 AspNetConfiguration 属性来重写用于生成 Web 项目的配置。Web 项目目前仅支持 Debug 和 Release 配置。" Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="F:\CoolImagic\:Clean" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web 项目不支持“Clean”目标。继续余下的项目..." />
+  </Target>
+  <Target Name="F:\CoolImagic\:Rebuild" DependsOnTargets=";GetFrameworkPathAndRedistList" Condition=" ('$(CurrentSolutionConfigurationContents)' != '') and (false or ( ('$(Configuration)' == 'Debug') and ('$(Platform)' == '.NET') ) or ( ('$(Configuration)' == 'Release') and ('$(Platform)' == '.NET') )) ">
+    <CreateItem Include="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\*.refresh">
+      <Output TaskParameter="Include" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_RefreshFile" />
+    </CreateItem>
+    <ReadLinesFromFile File="%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_RefreshFile.Identity)" Condition=" '%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_RefreshFile.Identity)' != '' ">
+      <Output TaskParameter="Lines" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_ReferenceRelPath" />
+    </ReadLinesFromFile>
+    <CombinePath BasePath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)" Paths="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_ReferenceRelPath)">
+      <Output TaskParameter="CombinedPaths" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild" />
+    </CombinePath>
+    <Copy SourceFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild->'%(FullPath)')" DestinationFolder="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\" Condition="!Exists('%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild.Identity)')" ContinueOnError="true" />
+    <ResolveAssemblyReference Assemblies="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild->'%(FullPath)')" TargetFrameworkDirectories="@(_CombinedTargetFrameworkDirectoriesItem)" InstalledAssemblyTables="@(InstalledAssemblyTables)" SearchPaths="{RawFileName};{TargetFrameworkDirectory};{GAC}" FindDependencies="true" FindSatellites="true" FindSerializationAssemblies="true" FindRelatedFiles="true" Condition="Exists('%(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild.Identity)')">
+      <Output TaskParameter="CopyLocalFiles" ItemName="Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_CopyLocalFiles" />
+    </ResolveAssemblyReference>
+    <Copy SourceFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_CopyLocalFiles)" DestinationFiles="@(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_References_Rebuild_CopyLocalFiles->'$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)\Bin\%(DestinationSubDirectory)%(Filename)%(Extension)')" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <AspNetCompiler VirtualPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetVirtualPath)" PhysicalPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetPhysicalPath)" TargetPath="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetTargetPath)" Force="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetForce)" Updateable="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetUpdateable)" Debug="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDebug)" KeyFile="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyFile)" KeyContainer="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetKeyContainer)" DelaySign="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetDelaySign)" AllowPartiallyTrustedCallers="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetAPTCA)" FixedNames="$(Project_15AC6E90-9200-42FE-A08B-490EFE2C446D_AspNetFixedNames)" Condition="(false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release')" />
+    <Message Text="由于此 Web 项目不支持“$(AspNetConfiguration)”配置，因此跳过。通过向命令行添加 /p:AspNetConfiguration=&lt;value&gt;，可以使用 AspNetConfiguration 属性来重写用于生成 Web 项目的配置。Web 项目目前仅支持 Debug 和 Release 配置。" Condition="!((false) or ('$(AspNetConfiguration)' == 'Debug') or ('$(AspNetConfiguration)' == 'Release'))" />
+  </Target>
+  <Target Name="F:\CoolImagic\:Publish" DependsOnTargets=";GetFrameworkPathAndRedistList">
+    <Message Text="Web 项目不支持“Publish”目标。继续余下的项目..." />
+  </Target>
+  <Target Name="Build" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="在解决方案配置“$(Configuration)|$(Platform)”中未选定生成项目“%(SkipLevel0.Identity)”。" Condition="@(SkipLevel0) != ''" />
+    <Warning Text="在解决方案文件中没有为解决方案配置“$(Configuration)|$(Platform)”指定项目“%(MissingConfigLevel0.Identity)”的项目配置。" Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="F:\CoolImagic\" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Clean" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Clean" />
+    <Message Text="在解决方案配置“$(Configuration)|$(Platform)”中未选定生成项目“%(SkipLevel0.Identity)”。" Condition="@(SkipLevel0) != ''" />
+    <Warning Text="在解决方案文件中没有为解决方案配置“$(Configuration)|$(Platform)”指定项目“%(MissingConfigLevel0.Identity)”的项目配置。" Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="F:\CoolImagic\:Clean" RunEachTargetSeparately="true" />
+    <Delete Files="CoolImagic.sln.cache" />
+  </Target>
+  <Target Name="Rebuild" Condition="'$(CurrentSolutionConfigurationContents)' != ''" Outputs="@(CollectedBuildOutput)">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Rebuild">
+      <Output TaskParameter="TargetOutputs" ItemName="CollectedBuildOutput" />
+    </MSBuild>
+    <Message Text="在解决方案配置“$(Configuration)|$(Platform)”中未选定生成项目“%(SkipLevel0.Identity)”。" Condition="@(SkipLevel0) != ''" />
+    <Warning Text="在解决方案文件中没有为解决方案配置“$(Configuration)|$(Platform)”指定项目“%(MissingConfigLevel0.Identity)”的项目配置。" Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="F:\CoolImagic\:Rebuild" RunEachTargetSeparately="true" />
+  </Target>
+  <Target Name="Publish" Condition="'$(CurrentSolutionConfigurationContents)' != ''">
+    <MSBuild Condition="@(BuildLevel0) != ''" Projects="@(BuildLevel0)" Properties="Configuration=%(Configuration); Platform=%(Platform); BuildingSolutionFile=true; CurrentSolutionConfigurationContents=$(CurrentSolutionConfigurationContents); SolutionDir=$(SolutionDir); SolutionExt=$(SolutionExt); SolutionFileName=$(SolutionFileName); SolutionName=$(SolutionName); SolutionPath=$(SolutionPath)" Targets="Publish" />
+    <Message Text="在解决方案配置“$(Configuration)|$(Platform)”中未选定生成项目“%(SkipLevel0.Identity)”。" Condition="@(SkipLevel0) != ''" />
+    <Warning Text="在解决方案文件中没有为解决方案配置“$(Configuration)|$(Platform)”指定项目“%(MissingConfigLevel0.Identity)”的项目配置。" Code="MSB4121" HelpKeyword="MSBuild.SolutionProjectConfigurationMissing" Condition="@(MissingConfigLevel0) != ''" />
+    <CallTarget Targets="F:\CoolImagic\:Publish" RunEachTargetSeparately="true" />
+  </Target>
+</Project>
