@@ -1,0 +1,32 @@
+﻿
+body 
+{
+	text-align:center;
+}
+
+.mainWidth
+{
+	width:1000px;
+	margin:auto;
+}
+
+.topLogo
+{
+	height:70px;
+	text-align:center;
+	background-color:Blue;
+}
+
+.searchBox
+{
+	float:right;
+	margin-top:35px;
+	margin-right:2px;
+}
+
+.searchButton
+{
+	float:right;
+	margin-top:35px;
+	margin-right:90px;
+}
