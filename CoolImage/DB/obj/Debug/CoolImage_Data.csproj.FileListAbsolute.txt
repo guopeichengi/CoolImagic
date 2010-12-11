@@ -1,0 +1,14 @@
+D:\importants\作业\软件工程\CoolImage\DB\bin\Debug\DB.dll
+D:\importants\作业\软件工程\CoolImage\DB\bin\Debug\DB.pdb
+D:\importants\作业\软件工程\CoolImage\DB\obj\Debug\ResolveAssemblyReference.cache
+D:\importants\作业\软件工程\CoolImage\DB\obj\Debug\DB.dll
+D:\importants\作业\软件工程\CoolImage\DB\obj\Debug\DB.pdb
+D:\importants\作业\软件工程\CoolImage\DB\bin\Debug\CoolImage_Structures.dll
+D:\importants\作业\软件工程\CoolImage\DB\bin\Debug\CoolImage_Structures.pdb
+G:\软件工程\coolimage\CoolImage\DB\bin\Debug\DB.dll
+G:\软件工程\coolimage\CoolImage\DB\bin\Debug\DB.pdb
+G:\软件工程\coolimage\CoolImage\DB\bin\Debug\CoolImage_Structures.dll
+G:\软件工程\coolimage\CoolImage\DB\bin\Debug\CoolImage_Structures.pdb
+G:\软件工程\coolimage\CoolImage\DB\obj\Debug\ResolveAssemblyReference.cache
+G:\软件工程\coolimage\CoolImage\DB\obj\Debug\DB.dll
+G:\软件工程\coolimage\CoolImage\DB\obj\Debug\DB.pdb

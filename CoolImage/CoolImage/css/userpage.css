@@ -1,0 +1,133 @@
+﻿body
+{
+	background-image:url("/images/background.jpg");
+	background-repeat:repeat-x;
+}
+.main
+{
+	width: 1000px;
+	background-color:White;
+	margin:auto;
+	margin-top:0px;
+	padding-bottom:100px;
+}
+.defaultmain
+{
+	width: 1000px;
+	background-color:White;
+	margin-top:0px;
+	padding-bottom:100px;
+	height:407px;
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	border-style:dotted;
+	border-width:1px;
+}
+.top
+{
+	background-color:#EEEEEE;
+	text-align:left;
+	height:23px;
+}
+.Logo
+{
+	height:90px;
+	text-align:right;
+	background-image:url("/images/logo-s.jpg");
+	margin-top:0px;
+}
+.search
+{
+	padding-top:25px;
+	margin-right:90px;
+	height: 31px;
+	margin-top: 0px;
+}
+.user_info
+{
+	background-image:url("/images/info.png");
+	width:160px;
+	height:400px;
+	float:left;
+	margin-top:70px;
+	margin-left:10px;
+	padding:10px;
+	text-align:left;
+}
+.rightpart
+{
+	background-image:url("/images/info.png");
+	width:160px;
+	height:400px;
+	float:right;
+	margin-top:70px;
+	margin-right:10px;
+	padding:10px;
+	text-align:left;
+}
+.navigation
+{
+	width:600px;
+	height:51px;
+	margin-left:200px;
+	margin-top:0px;
+	background-color: #30c7f3;
+}
+.navi_list
+{
+	padding-top:25px;
+}
+.navi_current
+{
+	padding:3px;
+	margin-left: 2px;
+	background-color:#80FFFF;
+	display: inline;
+}
+.navi_button
+{
+	padding: 3px;
+	margin-left: 2px;
+	background-color: White;
+	display: inline;
+	text-decoration: none;
+}
+.middle
+{
+	width: 600px;
+	height: 467px;
+	margin-left: 200px;
+	margin-top:0px;
+	border-color:Black;
+	border-width:2px;
+}
+
+.middle2
+{
+	width: 600px;
+	margin-left: 200px;
+	margin-top:0px;
+	border-color:Black;
+	border-width:2px;
+}
+
+.image
+{
+	margin-left:8px;
+	margin-top:50px;
+}
+.imagename
+{
+	margin-left:50px;
+	margin-top:50px;
+	font-size:200%;
+}
+.review
+{
+	width: 550px;
+	margin-left: 200px;
+	background-color: White;
+	padding: 25px;
+}

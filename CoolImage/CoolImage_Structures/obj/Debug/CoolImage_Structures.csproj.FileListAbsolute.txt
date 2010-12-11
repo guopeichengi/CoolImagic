@@ -1,0 +1,5 @@
+D:\importants\作业\软件工程\CoolImage\CoolImage_Structures\bin\Debug\CoolImage_Structures.dll
+D:\importants\作业\软件工程\CoolImage\CoolImage_Structures\bin\Debug\CoolImage_Structures.pdb
+D:\importants\作业\软件工程\CoolImage\CoolImage_Structures\obj\Debug\ResolveAssemblyReference.cache
+D:\importants\作业\软件工程\CoolImage\CoolImage_Structures\obj\Debug\CoolImage_Structures.dll
+D:\importants\作业\软件工程\CoolImage\CoolImage_Structures\obj\Debug\CoolImage_Structures.pdb
