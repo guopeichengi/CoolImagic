@@ -1,0 +1,3 @@
+~TestDoc目录下是 System/Integration Tests 和 Bug Tracker
+DataLayer 是 数据层单元测试
+BusinessLayer 是 业务层单元测试
